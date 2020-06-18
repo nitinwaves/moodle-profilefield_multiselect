@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,16 +16,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @package    profilefield
- * @subpackage menu
- * @copyright  2014 onwards The Digital Group {@link http://thedigitalgroup.com}
+ * @copyright 2014 Nitin Jain
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014082500;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2012062500;        // Requires this Moodle version
+$plugin->version = 2020061800;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->requires = 2012062500;        // Requires this Moodle version
 $plugin->component = 'profilefield_multiselect'; // Full name of the plugin (used for diagnostics)
-$plugin->release   = 'MultiselectV2.0';
-$plugin->maturity  = MATURITY_STABLE;
+$plugin->release = 'MultiselectV3.0';
+$plugin->maturity = MATURITY_STABLE;
