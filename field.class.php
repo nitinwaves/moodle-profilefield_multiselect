@@ -51,7 +51,7 @@ class profile_field_multiselect extends profile_field_base
             $this->options[''] = get_string('choose').'...';
         }
         foreach ($options as $key => $option) {
-            $this->options[$key] = format_string($option); //multilang formatting
+            $this->options[$key] = format_string($option, true, ['context' => context_system::instance()]); //multilang formatting
         }
 
         /// Set the data key
